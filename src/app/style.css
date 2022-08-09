@@ -1,0 +1,144 @@
+
+body {
+    color: white;
+    background-color: rgb(67, 167, 224);
+}
+.tela-login {
+    background-color: #275ab9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+}
+.nome-login {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+.senha-login {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+button {
+  background-color: dodgerblue;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: deepskyblue;
+}
+header div {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 16px;
+}
+a {
+    color:rgb(67, 167, 224);
+    text-decoration: none;
+}
+.destaque {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 16px;
+    height: 100px;
+    margin: 0 auto;
+}
+nav a {
+    font-weight: 900;
+    padding: 30px;  
+    background-color: #275ab9;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+nav {
+    margin-top: 30px;
+}
+.opcoes{
+    padding: 16px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;   
+}
+.carrossel{
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 700px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+#img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+#foto{
+    height: 100%;
+    width: 100%;
+}
+.carrossel2{
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+}
+.container2{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+#foto2{
+    height: 100%;
+    width: 100%;
+}
+#img2{
+    width: 100%;
+    height: 100%;
+}
+input {
+    width: 380px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+footer img {
+    width: 40px;
+    height: 40px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+footer a {
+    margin: 30px;
+    text-align: center;
+}
+footer p {
+    color: black;
+    text-align: left;
+}
+.info{
+    color: #275ab9;
+    font-family: helvetica;
+    font-size: 15px;
+    text-decoration: underline;
+    text-align: center;
+}
